@@ -1,7 +1,6 @@
-import $ from 'jquery';
-import { createUICounter } from './counter';
+import { createUICounter } from './practice';
 
-createUICounter($('#counter'), {
+createUICounter(document.querySelector('#counter'), {
   initVal: 10,
   min: 8,
   max: 12
